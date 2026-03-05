@@ -1,2 +1,2 @@
-# learning_KOTLIN_panda_course
+# learning_KOTLIN_courses_start_in_2026
 
