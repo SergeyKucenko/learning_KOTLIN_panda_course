@@ -2,9 +2,13 @@
 fun main() {
 
 
-    val spaceshipName = readln()
-    /* 1 */
-    println("\"${spaceshipName}\" приземлился на площадке N-35.") // 1. использовали строковый шаблон
+    val winterTemperature = -27.5 // отрицательное значение температуры
+    val summerTemperature = +26.3 // положительное значение температуры
+
+    val isEmptySpaceship = true // корабль пуст - да
+    val isFullSpaceship = !isEmptySpaceship // корабль полный = корабль не пуст
+
+
 }
 
 
