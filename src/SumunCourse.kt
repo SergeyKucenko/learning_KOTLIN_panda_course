@@ -1,48 +1,50 @@
 fun main() {
 
 
-    var temperature = readln().toInt()
-    var airConditionIsOn = false
+    
 
 
-    if (temperature > 20) {
-        airConditionIsOn = true
 
-    } else if (temperature < 20) {
-        airConditionIsOn = false
-    }
-    if(airConditionIsOn){
-        temperature -= 5
-    } else{
-        temperature += 5
-    }
 
-    println("Air condition corrent temperature: $temperature")
 
-    if(temperature > 25 ) {
-        airConditionIsOn = true
-    } else if (temperature<20) {
-        airConditionIsOn=false
-    }
 
-    if(airConditionIsOn) {
-        temperature-=5
-    } else{
-        temperature+=5
-    }
-println("corrent temperature:$temperature ")
 
-//    val hot: Boolean = temperature < 25
-//    val cold = temperature < 20
+
+
+//_____________________________________________________________________________________________
+
+//    var temperature = readln().toInt()
+//    var airConditionIsOn = false
 //
-//    if(hot){
-//        println("AC IS ON")
-//    } else if (cold) {
-//        println ("ac is off")
-//    } else {
-//        println("ac not work")
+//
+//    if (temperature > 20) {
+//        airConditionIsOn = true
+//
+//    } else if (temperature < 20) {
+//        airConditionIsOn = false
 //    }
+//    if(airConditionIsOn){
+//        temperature -= 5
+//    } else{
+//        temperature += 5
+//    }
+//
+//    println("Air condition corrent temperature: $temperature")
+//
+//    if(temperature > 25 ) {
+//        airConditionIsOn = true
+//    } else if (temperature<20) {
+//        airConditionIsOn=false
+//    }
+//
+//    if(airConditionIsOn) {
+//        temperature-=5
+//    } else{
+//        temperature+=5
+//    }
+//println("corrent temperature: $temperature ")
 
+//_____________________________________________________________________________________________
 
 
 
@@ -110,6 +112,8 @@ println("corrent temperature:$temperature ")
 //        println("Налоговая ставка: 150 руб./л.с.")
 //        println("Сумма налога: ${valuePowerCar * 150} руб.")
 //    }
+//_____________________________________________________________________________________________
+
 }
 
 
