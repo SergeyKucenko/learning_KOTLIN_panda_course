@@ -1,31 +1,66 @@
 fun main() {
 
-
-
-
-
 //________________________________________________________________________________________________
-    // пишите код здесь
-    println("Введите ваши предпочтения:")
-    val interests = readln()
-    println("Введите ваш бюджет:")
-    val budget = readln().toInt()
 
-
-
-    when (interests) {
-        "Природа" -> println("Рекомендуем экскурсию в национальный парк.")
-        "История" -> println("Рекомендуем посетить местный исторический музей.")
-        "Развлечения" -> println("Рекомендуем сходить в аквапарк или парк аттракционов.")
-    }
-
-    when (budget) {
-        // пишите код здесь
-        in 0..100 -> println("Рекомендуем бюджетный вариант отдыха: прогулки по городу, посещение местных рынков.")
-        in 101..500 -> println("Рекомендуем средний вариант отдыха: экскурсию в пригород, посещение культурных достопримечательностей.")
-        in 501..1000 -> println("Рекомендуем премиум-вариант отдыха: эксклюзивную экскурсию, посещение элитных ресторанов.")
-        else -> println("Рекомендуем обратиться в наш отдел для составления индивидуального плана отдыха.")
-    }
+//    val sourceDeviceType = readln()
+//    val destinationDeviceType = readln()
+//    val destination = readln()
+//
+//    var isTeleportationPossible = false
+//
+//    when (sourceDeviceType) {
+//        "Infinity Mirror" -> {
+//            when (destinationDeviceType) {
+//                "Infinity Mirror" -> isTeleportationPossible = true
+//                "Quantum Gateway" -> isTeleportationPossible = true
+//                "Stargate" -> isTeleportationPossible = true
+//            }
+//        }
+//        "Quantum Gateway" -> {
+//            when (destinationDeviceType) {
+//                "Infinity Mirror" -> isTeleportationPossible = true
+//                "Quantum Gateway" -> isTeleportationPossible = true
+//                "Stargate" -> isTeleportationPossible = true
+//            }
+//        }
+//        "Stargate" -> {
+//            when (destinationDeviceType) {
+//                "Infinity Mirror" -> isTeleportationPossible = true
+//                "Quantum Gateway" -> isTeleportationPossible = true
+//                "Stargate" -> isTeleportationPossible = true
+//            }
+//        }
+//    }
+//
+//    if(isTeleportationPossible) {
+//        println("Телепортация на $destination разрешена")
+//    } else {
+//        println("Телепортация на $destination невозможна")
+//    }
+//
+//
+////________________________________________________________________________________________________
+//    // пишите код здесь
+//    println("Введите ваши предпочтения:")
+//    val interests = readln()
+//    println("Введите ваш бюджет:")
+//    val budget = readln().toInt()
+//
+//
+//
+//    when (interests) {
+//        "Природа" -> println("Рекомендуем экскурсию в национальный парк.")
+//        "История" -> println("Рекомендуем посетить местный исторический музей.")
+//        "Развлечения" -> println("Рекомендуем сходить в аквапарк или парк аттракционов.")
+//    }
+//
+//    when (budget) {
+//        // пишите код здесь
+//        in 0..100 -> println("Рекомендуем бюджетный вариант отдыха: прогулки по городу, посещение местных рынков.")
+//        in 101..500 -> println("Рекомендуем средний вариант отдыха: экскурсию в пригород, посещение культурных достопримечательностей.")
+//        in 501..1000 -> println("Рекомендуем премиум-вариант отдыха: эксклюзивную экскурсию, посещение элитных ресторанов.")
+//        else -> println("Рекомендуем обратиться в наш отдел для составления индивидуального плана отдыха.")
+//    }
 
 
 //________________________________________________________________________________________________
