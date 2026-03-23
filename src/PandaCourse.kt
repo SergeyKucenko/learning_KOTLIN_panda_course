@@ -8,10 +8,108 @@ fun main() {
 // ____________________________________
 
 
+
 // ____________________________________
 
+//    var formNumber = 0
+//    var userQuestionNumber = 0
+//    var userBalls = 0
+//
+//    while (true) {
+//
+//        val question = readln()
+//
+//        if (question == "") {
+//            formNumber++
+//
+//            val avgUserBalls = userBalls / userQuestionNumber
+//            if(avgUserBalls >= 4.75) {
+//                println("Анкета #${formNumber}: Годен")
+//            } else {
+//                println("Анкета #${formNumber}: Не годен")
+//            }
+//
+//            userBalls = 0
+//
+//            continue
+//        }
+//        if (question == "Анкеты закончились")
+//            break
+//
+//        val answer = readln()
+//
+//
+//
+//        when (question) {
+//            "Почему вы хотите стать шпионом?" -> {
+//                when (answer) {
+//                    "Патриотизм, желание служить планете" -> userBalls += 5
+//                    "Интерес к разведке и шпионажу" -> userBalls += 4
+//                    "Другое" -> userBalls += 3
+//                }
+//            }
+//
+//            "Вы способны хранить секреты и работать в условиях неопределенности?" -> {
+//                when (answer) {
+//                    "Да, всегда" -> userBalls += 5
+//                    "Да, в большинстве случаев" -> userBalls += 4
+//                    "Нет, мне трудно хранить секреты" -> userBalls += 1
+//                }
+//            }
+//
+//            "Вы умеете работать в команде и выполнять приказы" -> {
+//                when (answer) {
+//                    "Да, всегда" -> userBalls += 5
+//                    "Да, в большинстве случаев" -> userBalls += 4
+//                    "Нет, мне трудно работать в команде" -> userBalls += 1
+//                }
+//            }
+//
+//            else -> {
+//                println("Вопрос не найден в банке данных")
+//                continue
+//            }
+//        }
+//
+//        userQuestionNumber++
+//    }
+// ____________________________________
 
-
+//    fun main() {
+//
+//        var totalIncome = 0.0
+//        var travelRequests = 0
+//
+//        while (true) {
+//            println("Введите уровень отдыха (1-3):")
+//
+//            val inputNumber = readln()
+//
+//            if(inputNumber == "" || inputNumber == "Завершить обслуживание") {
+//                break
+//            }
+//
+//            val number = inputNumber.toInt()
+//
+//            when(number) {
+//                1 -> totalIncome += 1000
+//                2 -> totalIncome += 3000
+//                3 -> totalIncome += 10000
+//                else -> {
+//                    println("Введен некорректный уровень отдыха")
+//                    continue
+//                }
+//            }
+//
+//            travelRequests++
+//        }
+//
+//        val avgCostOfTravel = totalIncome / travelRequests
+//
+//        println()
+//        println("Общий доход: $totalIncome")
+//        println("Средняя стоимость путешествия: $avgCostOfTravel")
+//    }
 // ____________________________________
 
 //
