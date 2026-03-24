@@ -6,11 +6,62 @@ fun main() {
 
 // ____________________________________
 
+
+// _______________________________________
+
+    println("Введите количество плодов для проверки:")
+    val inputData = readln().toInt()
+    println("Статус плодов:")
+
+    for (number in 1..inputData) {
+        val diameter = readln().toInt()
+
+        when (diameter) {
+            in -10000..0 -> println(" - Не соответствует")
+            in 1..30 -> println(" - Соответствует")
+            in 31..10000 -> println(" - Не соответствует")
+        }
+
+    }
+
+
+
 // ____________________________________
 
+//    println("Введите количество посетителей:")
+//    val inputGuestCount = readln()
+//    val guestCount = inputGuestCount.toInt()
+//    println("Список чеков:")
+//
+//
+//    for (guestNumber in 1..guestCount) {
+//        val guestType = readln()
+//
+//        // пишите код здесь
+//        when (guestType) {
+//            "VIP" -> println(" - Чек на 50% больше")
+//            "Common" -> println(" - Обычный чек")
+//        }
+//
+//    }
 
 
 
+// ____________________________________
+
+//    val inputTransportCount = readln()
+//    val transportCount = inputTransportCount.toInt()
+//
+//    var totalHarvest = 0
+//
+//    for (transportNumber in 1..transportCount) {
+//        val deliveredHarvest = readln().toInt()
+//
+//        // пишите код здесь
+//        totalHarvest += deliveredHarvest
+//    }
+//
+//    println("Общий урожай: $totalHarvest тонн")
 //________________________________________________________________________________________________
 //    Циклы While и Do..While
 
