@@ -6,23 +6,48 @@ fun main() {
 
 // ____________________________________
 
-    var bookCount = 0
+    val boardSize = readln().toInt()
 
-    var bookId = 0
-    do {
-        println("Введите количество книг:")
+    for (row in 1..boardSize) {
 
-        bookCount = readln().toInt()
-    } while (bookCount == 0)
-
-    println("Отсканированные книги:")
-
-    for(bookNumber in 1 .. bookCount) {
-        ++bookId
-        val bookName = readln()
-        println("  - $bookName, ID-$bookId")
+        if (row % 2 == 0) {
+            print("■")
+        } else {
+            print("□")
+        }
         println()
+
+        // Пишите код здесь
+        for (row in 1..boardSize) {
+            if (row % 2 != 0) {
+                print("□")
+            } else {
+                print("■")
+            }
+
+        }
+
     }
+
+// ____________________________________
+
+//    var bookCount = 0
+//
+//    var bookId = 0
+//    do {
+//        println("Введите количество книг:")
+//
+//        bookCount = readln().toInt()
+//    } while (bookCount == 0)
+//
+//    println("Отсканированные книги:")
+//
+//    for(bookNumber in 1 .. bookCount) {
+//        bookId++
+//        val bookName = readln()
+//        println("  - $bookName, ID-$bookId")
+//        println()
+//    }
 
 // _______________________________________
 
