@@ -2,20 +2,101 @@ fun main() {
 
 
 
+//_____________________________________________________________________________________________
+    //   2.14 Диапазоны Ranges
 
 
+//    val chislo1 = readln().toInt()
+//
+//    val chislo2 = readln().toInt()
+//
+//    val numbers = chislo1..chislo2 step 8
+//
+//    for (number in numbers) {
+//
+//        println("$number")
+//    }
+
+//_____________________________________________________
+//    val numbers = 0..1000 step 2
+//    println("Enter your number")
+//    val chislo = readln().toInt()
+//
+//    if(chislo !in numbers){
+//        println("Number is not in range")
+//    } else {
+//        println("Number in the range")
+//    }
 
 
+//_____________________________________________________
+//    val numbers = 0..1000 step 10
+//
+//    for (number in numbers) {
+//
+//        println("$number")
+//    }
 
 
 //_____________________________________________________________________________________________
 //    2.13 Цикл for и свойство size
 
-    val names = listOf<String>("john", "Mike", "Helen", "Alex")
-    print("Enter your Name")
-    val searchName = readln()
+//    val brands = listOf<String>("lada", "bmw", "tesla", "Toyota", "volvo")
+//
+//    val marka = readln()
+//    var foundBrand = false
+//
+//    for (carBrand in brands) {
+//        if (carBrand == marka) {
+//            foundBrand = true
+//        }
+//    }
+//    println(foundBrand)
+//
 
+//_____________________________________________________
+//    val numbers = listOf<Int>(1, 78, 9, 10, 12, 132, 41, 86, 88, 55)
+//
+//    for (number in numbers) {
+//        if (number % 2 == 0) {
+//            println("$number")
+//        }
+//    }
 
+    //_____________________________________________________
+//    val names = listOf<String>("John", "Mike", "Nick", "Helen", "Alex", "Emma")
+//    println("Enter your Name")
+//    val searchName = readln()
+//    var nameFound = false
+//
+//
+//    for(name in names){
+//        println(name)
+//        if (searchName in name) {
+//            nameFound = true
+//            break
+//        }
+//    }
+//
+//    println("Name is Found : $nameFound")
+//
+//_____________________________________________________
+//    val names = listOf<String>("John", "Mike", "Nick", "Helen", "Alex", "Emma")
+//    println("Enter your Name")
+//    val searchName = readln()
+//    var nameFound = false
+//    var index = 0
+//
+//    while (index < names.size) {
+//        println(names[index])
+//        if (searchName == names[index]) {
+//            nameFound = true
+//            break
+//        }
+//        index++
+//    }
+//
+//    println("Name is Found : $nameFound")
 
 
 //_____________________________________________________________________________________________
