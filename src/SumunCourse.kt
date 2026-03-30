@@ -2,12 +2,90 @@ fun main() {
 
 
 
+////_____________________________________________________________________________________________
+//    2.18 Do while и split
+
+//    Напишите программу, которая складывает числа введенные пользователем и выводит результат в консоль.
+//
+//    Обратите внимание что пользователь вводит числа в одну строку.
+//
+//    Для решения вам потребуется использовать метод split()
+
+//    val numbers = readln().split(" ")
+//
+//    var sum = 0
+//
+//    for (num in numbers) {
+//
+//        sum += num.toInt();
+//    }
+//    println(sum)
+//
+
+//_____________________________________________________
+//    val daysOfWeekString = "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday"
+//
+//    val daysOfWeek = daysOfWeekString.split(",")
+//
+//    for(day in daysOfWeek){
+//        println(day)
+//    }
 
 
-
+//_____________________________________________________
+//    var count = readln().toInt()
+//
+//    do {
+//        println("Hello")
+//        count--
+//    } while (count > 0)
 
 ////_____________________________________________________________________________________________
+//    2.17 Символьный тип данных
 
+//    val password = readln().toCharArray()
+//
+//    var symbolIsValid = false
+////  var contaiInNotValid = false
+//
+//    for (symbol in password) {
+//        if (symbol == 'Ъ') {
+//            symbolIsValid = true
+//        }
+//    }
+//
+//    if(symbolIsValid){
+//        println("У вас идеальный пароль!")
+//    } else{
+//        println("Опс! В вашем пароле кое-чего не хватает.")
+//    }
+
+//_____________________________________________________
+//    println("Enter password: ")
+//
+//    val password = readln().toCharArray()
+//
+//    var containsLetter = false
+//    var containsDigit = false
+//    var cotainsSpecialSymbol = false
+//
+//    for (symbol in password) {
+//        if (symbol.isLetter()) {
+//            containsLetter = true
+//        }
+//        if (symbol.isDigit()) {
+//            containsLetter = true
+//        }
+//        if (!symbol.isLetterOrDigit()) {
+//            containsLetter = true
+//        }
+//
+//    }
+//    if (containsLetter && containsDigit && cotainsSpecialSymbol && password.size >= 8) {
+//        println("pASSWORD IS WALID")
+//    } else {
+//        println("pASSWORD IS not WALID")
+//    }
 
 
 ////_____________________________________________________________________________________________
