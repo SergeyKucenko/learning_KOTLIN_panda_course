@@ -9,6 +9,42 @@ fun main() {
 // ____________________________________
 // ____________________________________
 
+    println("Введите количество цветов скафандров:")
+    var countOfSpacesuit = readln().toInt()
+    println("Введите цвет #1:")
+    var colorSpacesuit1 = readln();
+    println("Введите цвет #2:")
+    var colorSpacesuit2 = readln();
+
+
+    var countColors = 2
+    var sizes = 3
+
+
+    for(obshiiCikl in 1..countOfSpacesuit){
+
+        if(colorSpacesuit1 != ""){
+            println(" - $colorSpacesuit1 XS\n - $colorSpacesuit1 M\n - $colorSpacesuit1 XL")
+        }else{continue}
+
+        if(colorSpacesuit2 != ""){
+            println(" - $colorSpacesuit2 XS\n - $colorSpacesuit2 M\n - $colorSpacesuit2 XL")
+        }else{continue}
+
+
+
+    }
+
+
+    //        val numbers = 9 // количество цифр для таблицы умножения
+//
+//        println("Таблица умножения:")
+//        for (number1 in 1..numbers) { // для каждой цифры
+//            for (number2 in 1..numbers) { // выполняем умножение на все другие
+//                println("${number1} x ${number2} = ${number1 * number2}") // и выводим результат
+//            }
+//        }
+//
 
 
 // ____________________________________
@@ -22,7 +58,7 @@ fun main() {
 //    Примечание: эффективный сборщик - сборщик, который собрал больше всего урожая клубники.
 
 
-//  fun main() {
+
 //    println("Введите количество сборщиков:")
 //    val count = readln().toInt()
 //    var goodHarvest = 0
@@ -43,7 +79,7 @@ fun main() {
 //    }
 //
 //    println("Самый эффективный сборщик: #$goodHarvestNumber | ${goodHarvest}т")
-//}
+//
 
 
 // ____________________________________
