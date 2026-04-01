@@ -7,33 +7,91 @@ fun main() {
 // ____________________________________
 // ____________________________________
 // ____________________________________
+
+
+
 // ____________________________________
+//ЗАДАЧА **
+//    Метеорологическая станция *Stars-1* передала данные о температуре за последние 7 дней.
+//    Ваша задача: напишите программу, которая определит самый тёплый и самый холодный день.
+//    Примечание: самый теплый день - максимальное значение температуры, а самый холодный - минимальное значение.
 
-    println("Введите количество цветов скафандров:")
-    var countOfSpacesuit = readln().toInt()
-    println("Введите цвет #1:")
-    var colorSpacesuit1 = readln();
-    println("Введите цвет #2:")
-    var colorSpacesuit2 = readln();
+//    var tempMax = 0
+//    var tempMin = 0
+//    var dayWeekMax = ""
+//    var dayWeekMin = ""
+//
+//    println("Введите температуры за 7 дней:")
+//
+//    for (i in 1..7) {
+//
+//        val currentDay = when (i) {
+//            1 -> "Понедельник"
+//            2 -> "Вторник"
+//            3 -> "Среда"
+//            4 -> "Четверг"
+//            5 -> "Пятница"
+//            6 -> "Суббота"
+//            7 -> "Воскресенье"
+//            else -> ""
+//        }
+//
+//
+//        var currentTemp = readln().toInt()
+//
+//        if (i == 1) {
+//            tempMax = currentTemp
+//            tempMin = currentTemp
+//            dayWeekMax = currentDay
+//            dayWeekMin = currentDay
+//        }
+//
+//        if (currentTemp > tempMax) {
+//            tempMax = currentTemp
+//            dayWeekMax = currentDay
+//        }
+//        if (currentTemp < tempMin) {
+//            tempMin = currentTemp
+//            dayWeekMin = currentDay
+//        }
+//
+//
+//    }
+//
+//    println("Самый теплый день: $dayWeekMax")
+//    println("Самый холодный день: $dayWeekMin")
 
 
-    var countColors = 2
-    var sizes = 3
-
-
-    for(obshiiCikl in 1..countOfSpacesuit){
-
-        if(colorSpacesuit1 != ""){
-            println(" - $colorSpacesuit1 XS\n - $colorSpacesuit1 M\n - $colorSpacesuit1 XL")
-        }else{continue}
-
-        if(colorSpacesuit2 != ""){
-            println(" - $colorSpacesuit2 XS\n - $colorSpacesuit2 M\n - $colorSpacesuit2 XL")
-        }else{continue}
-
-
-
-    }
+// ____________________________________
+//    Задача
+//    В магазине OrbitWear продаются футуристические скафандры.
+//    Клиенты жалуются, что не видят все варианты расцветок и размеров. Ваша задача — автоматизировать подбор.
+//    Ваша задача: напишите программу, которая выведите все возможные комбинации в формате - "Цвет + Размер".
+//
+//    Примечание: доступны следующие размеры скафандров - "XS", "M", "XL".
+//
+//    val sizes = 3
+//
+//    println("Введите количество цветов скафандров:")
+//    val colorCount = readln().toInt()
+//
+//    for (colorNumber in 1..colorCount) {
+//        println("Введите цвет #${colorNumber}:")
+//        val color = readln()
+//
+//        println("Список доступных моделей:")
+//        for(sizeId in 1 ..sizes) {
+//            val sizeName = when(sizeId) {
+//                1 -> "XS"
+//                2 -> "M"
+//                3 -> "XL"
+//                else -> ""
+//            }
+//            println(" - $color $sizeName")
+//        }
+//
+//        println()
+//    }
 
 
     //        val numbers = 9 // количество цифр для таблицы умножения
