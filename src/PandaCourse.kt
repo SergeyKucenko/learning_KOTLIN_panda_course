@@ -8,10 +8,17 @@ fun main() {
 // ____________________________________
 // ____________________________________
 
-
-
-
-
+//    val stringArray: Array<String> = arrayOf("Звёздный крейсер", "тяжелый линкор", "легкий фрегат", "корвет")
+////    printArray(stringArray)
+//
+//    val ints: Array<Int> = arrayOf(150, 260, 380, 740, 999)
+//    val double: Array<Double> = arrayOf(150.5, 260.0, 380.0, 740.0, 999.9)
+//    val boolean: Array<Boolean> = arrayOf(true, false, false, true)
+//
+//    println("["+stringArray.joinToString()+"]")
+//    println("["+ints.joinToString()+"]")
+//    println("["+double.joinToString()+"]")
+//    println("["+boolean.joinToString()+"]")
 
 
 
