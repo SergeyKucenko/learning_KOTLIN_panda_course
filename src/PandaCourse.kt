@@ -4,9 +4,39 @@ fun main() {
 //________________________________________________________________________________________________
 //    Цикл For  Массивы
 
+
 // ____________________________________
+// ____________________________________
+// ____________________________________
+    val employees = arrayOf("Джейсон Тесла", "Алекс Вейланд", "Лекс Таргон", "Кайл Ренгар", "Майя Рейнольдс")
+    val salaryOfEmployees = arrayOf(1500.0, 10000.0, 5000.0, 5500.0, 5000.0)
+    val achievementsOfEmployees = // пишите код здесь
+
+        for(index in employees.indices) {
+            val employeeAward = if(achievementsOfEmployees[index]) {
+                salaryOfEmployees[index] * 1.5
+            } else {
+                0.0
+            }
+            val totalSalary = salaryOfEmployees[index] + employeeAward
+
+            println("${employees[index]}, зарплата: ${totalSalary}")
+        }
 
 
+// ____________________________________
+//    Ваша задача: требуется доработать программу, которая хранит данные по средней температуре в течение дня на планете, добавив следующий функционал:
+//
+//    В случае падения температуры ниже -30 градусов вывести сообщение "Оставайтесь на базе".
+//
+//    val nightTemperatureList = arrayOf(-10, -55, -25, -30, -50, -55, -60, -5)
+//
+//    for(index in nightTemperatureList.indices) {
+//        if(nightTemperatureList[index] < -30) {
+//            println("День ${index+1}. Оставайтесь на базе")
+//        }
+//    }
+//
 
 
 // ____________________________________
