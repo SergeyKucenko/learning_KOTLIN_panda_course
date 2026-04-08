@@ -2,26 +2,152 @@ fun main() {
 
 
 //________________________________________________________________________________________________
-//    Цикл For  Массивы
+//  Массивы  - Array
+
+
+
 
 
 // ____________________________________
 // ____________________________________
+//    9.5 Многомерные массивы
+
+
+
+
 // ____________________________________
-    val employees = arrayOf("Джейсон Тесла", "Алекс Вейланд", "Лекс Таргон", "Кайл Ренгар", "Майя Рейнольдс")
-    val salaryOfEmployees = arrayOf(1500.0, 10000.0, 5000.0, 5500.0, 5000.0)
-    val achievementsOfEmployees = // пишите код здесь
+//    Задача
+//    Неко-сан мечтает помочь звёздам, которые устали от папарацци.
+//    Для этого она начала разрабатывать специальную программу, но у неё возникли трудности.
+//    Ваша задача: доработайте программу, которая используется для отображения всех папарацци в регионе в режиме реального времени.
+//    Подсказка: проверяйте все элементы в массиве для добавления и поиска данных.
 
-        for(index in employees.indices) {
-            val employeeAward = if(achievementsOfEmployees[index]) {
-                salaryOfEmployees[index] * 1.5
-            } else {
-                0.0
-            }
-            val totalSalary = salaryOfEmployees[index] + employeeAward
+// val paparazziСount = 10
+//    val paparazziIds = Array<Int>(paparazziСount) { 0 }
+//
+//    while(true) {
+//        println("Введите ID папарацци (0 для выхода):")
+//        val inputData = readln()
+//
+//        if (inputData == "0") break
+//
+//        val paparazziId = inputData.toInt()
+//
+//        for (i in paparazziIds.indices) {
+//            if (paparazziIds[i] == 0) {
+//                paparazziIds[i] = paparazziId
+//                break
+//            }
+//        }
+//    }
+//
+//    println()
+//    println("Карта региона:")
+//
+//    var paparazziFound = false
+//    for(paparazziId in paparazziIds) {
+//        if(paparazziId != 0) {
+//            println(" - Обнаружен папарацци с ID: $paparazziId")
+//            paparazziFound = true
+//        }
+//    }
+//
+//    if(!paparazziFound) {
+//        println(" - Папарацци не обнаружено")
+//    }
 
-            println("${employees[index]}, зарплата: ${totalSalary}")
-        }
+// ____________________________________
+//    Задача
+//    На заснеженной Аркании добывают лёд.
+//    И на этом неплохо зарабатывают все компании, ведь блюдо "Сладкий лёд" любят во всей галактике!
+//    Ваша задача: доработайте программу, которая будет считать оставшийся в леднике лёд.
+//    Руководство потеряло документацию к программе, поэтому Вам предстоит самостоятельно определить назначение тестовых данных, проанализировав код программы.
+//    Подсказка: для вычисления оставшегося льда перезаписывайте значения в массиве.
+
+//    val glasierVolumesList = arrayOf(100.0, 250.0, 35.0)
+//
+//    val days = readln().toInt() // дни
+//    var minedIceVolume = 0.0 // объем льда
+//    var inputGlasierNumber = -1 // индекс
+//
+//
+//    var currentDay = 0
+//    while(currentDay < days) {
+//        inputGlasierNumber = readln().toInt()
+//        minedIceVolume = readln().toDouble()
+//
+//        glasierVolumesList[inputGlasierNumber - 1] -= minedIceVolume
+//
+//        currentDay++
+//    }
+//
+//    println("Статистика по ледникам:")
+//    for(glasierData in glasierVolumesList) {
+//        println(" - ${glasierData}")
+//    }
+//
+
+// ____________________________________
+//    Задача
+//    Приветствуем Вас в жарких тропиках, где проходит первый галактический розыгрыш "IWIN".
+//    Для получения приза в 100,000 кредитов предстоит пройти полосу препятствий за 14 дней.
+//    Участников ждут:
+//    Пересечение пустынных пляжей близ бирюзового океана;
+//    Приготовление амброзии из дикоросов;
+//    Сон под открытым небом в зоне E1 с коэффициентом ULWR 0,0%.
+//    Ваша задача: доработайте программу, которая будет считать количество дней до конца розыгрыша (и завидовать участникам).
+
+//    val targetDay = 14
+//    val pointDayList = Array(targetDay) { "" }
+//
+//    var correctDay = 0
+//
+//    while (true) {
+//        val inputData = readln()
+//
+//        if (inputData == "Подсчёт продолжается" || inputData == "Подсчёт окончен")
+//            break
+//
+//        pointDayList[correctDay] = inputData
+//        correctDay++
+//
+//    }
+//
+//
+//    var countDownOfDays = targetDay
+//    for (pointDay in pointDayList) {
+//        if (pointDay != "") {
+//            countDownOfDays--
+//        } else {
+//            break
+//        }
+//    }
+//
+//    println("До конца мероприятия (дней): $countDownOfDays")
+//
+
+// ____________________________________
+//    Задача
+//    Разведка Технократии обнаружила старинный алгоритм по эффективному расчету премий.
+//    Ваша задача: требуется доработать программу, которая будет начислять премии жителям Технократии, внеся следующие улучшения:
+//    добавьте массив со статусом достижений 5 сотрудников за месяц - есть / нет.
+//    P.S. Создайте массив с 5 элементами определенного типа с помощью команды arrayOf().
+
+//    val employees = arrayOf("Джейсон Тесла", "Алекс Вейланд", "Лекс Таргон", "Кайл Ренгар", "Майя Рейнольдс")
+//    val salaryOfEmployees = arrayOf(1500.0, 10000.0, 5000.0, 5500.0, 5000.0)
+//    val achievementsOfEmployees = arrayListOf(true, false, false, true, true) // пишите код здесь
+//
+//
+//        for(index in employees.indices) {
+//            val employeeAward = if(achievementsOfEmployees[index]) {
+//                salaryOfEmployees[index] * 1.5
+//            } else {
+//                0.0
+//            }
+//            val totalSalary = salaryOfEmployees[index] + employeeAward
+//
+//            println("${employees[index]}, зарплата: ${totalSalary}")
+//        }
 
 
 // ____________________________________
@@ -176,6 +302,7 @@ fun main() {
 
 
 //________________________________________________________________________________________________
+
 //    Цикл For
 // ____________________________________
 //ЗАДАЧА **
