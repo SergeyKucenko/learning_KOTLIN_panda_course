@@ -3,12 +3,99 @@ fun main() {
 
 //________________________________________________________________________________________________
 //  10.1 Функции
+//  10.3 Необязательные параметры и именованные аргументы
+
+
+}
+// ____________________________________
+// ____________________________________
+// ____________________________________
+//Задача
+//    В школе техно-волшебства девушки любят готовить виртуальные зелья и конструировать на 3D-принтере кибер-метлы.
+//    Вас попросили написать программку, считающую расходы всех учениц на квантовые частички, обеспечивающие энергией все изобретения.
+//    Ядро (с англ. яз. "core") программы уже написано:
+
+
+//    val girls = readln().toLong()
+//    val count = readln().toLong()
+//    val price = readln().toLong()
+//
+//    val result = calculateCost(girls, count, price)
+//    print(result)
+//}
+//
+//   fun calculateCost(girls: Long, count: Long, price: Long): Long {
+//    val formula = girls * count * price
+//    return (formula)
+//}
+
+// ____________________________________
+//Задача
+//От командира армии Вам поступил запрос на разработку программы,
+//выполняющей расчеты некоторых засекреченных данных. Ядро программы уже написано:
+//    val param1 = readln().toInt()
+//    val param2 = readln().toInt()
+//
+//    val result = calculateSecretData(param1, param2)
+//    print(result)
+//}
+//
+//fun calculateSecretData(param1: Int, param2: Int): Int {
+//    val formula = 2 * (param1 + param2) * (param1 + param2)
+//    return formula
+//}
+
+// ____________________________________
+//    Задача
+//    Метеорологическая станция каждый час получает сотни тысяч Гигабайт данных с зондов, следящих за температурой на планете.
+//    Для получения точной температуры данные берутся с нескольких соседних зондов и считается среднее значение.
+//    val satelliteOne = readln().toFloat()
+//    val satelliteTwo = readln().toFloat()
+//    val satelliteThree = readln().toFloat()
+//    val satelliteFour = readln().toFloat()
+//    val satelliteFive = readln().toFloat()
+//
+//    val result = calculateAvgTemperature(satelliteOne, satelliteTwo, satelliteThree, satelliteFour, satelliteFive)
+//    print(result)
+//
+//}
+//    fun calculateAvgTemperature(satelliteOne: Float , satelliteTwo : Float, satelliteThree : Float, satelliteFour : Float,satelliteFive : Float): Float {
+//        val avgTemperture =( satelliteOne+satelliteTwo+satelliteThree+satelliteFour+satelliteFive)/4
+//        return(avgTemperture)
+//    }
 
 
 // ____________________________________
-
-
-
+//    Задача
+//    Глава фракции Бибо заинтересован в получении уникального лота на аукционе.
+//
+//    Сам аукцион работает по принципу - побеждает первый участник, предложивший максимальную цену.
+//
+//
+//    println("Список претендентов:")
+//
+//    val inputUsers = readln()
+//    val users = inputUsers.split(", ").toTypedArray()
+//
+//    val winnerNumber = getWinner(users)
+//
+//    println("Новый владелец лота - №${winnerNumber}")
+//}
+//
+//fun getWinner(users: Array<String>): String {
+//    var winnerNumber = ""
+//
+//    for(user in users) {
+//        val userData = user.split(" - ")
+//        val userName = userData[0]
+//        val userNumber = userData[1]
+//        if(userName == "Бибо") {
+//            winnerNumber = userNumber
+//        }
+//    }
+//
+//    return winnerNumber
+//
 
 
 // ____________________________________
@@ -1573,4 +1660,3 @@ fun main() {
 //________________________________________________________________________________________________
 
 
-}
