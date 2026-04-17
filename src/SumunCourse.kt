@@ -5,47 +5,38 @@ fun main() {
 //    Введение в ООП
 
 
-
-
-
-
-
 ////_____________________________________________________
 //    3.2 Создание класса и объекта
 
 
-
-
-
 //_____________________________________________________
-//    val first = Person()
-//    val second = Person()
-//
-//    print("Input 1st name: ")
-//    first.name = readln()
-//    print("Input 2st name: ")
-//    second.name = readln()
-//
-//    print("Input 1st age: ")
-//    first.age = readln().toInt();
-//    print("Input 2st age: ")
-//    second.age = readln().toInt();
-//
-//
-//    print("Input 1st weight: ")
-//    first.weight = readln().toDouble()
-//    print("Input 2st weight: ")
-//    second.weight = readln().toDouble()
-//
-//    print("Input 1st height: ")
-//    first.height = readln().toDouble()
-//    print("Input 2st height: ")
-//    second.height = readln().toDouble()
-//
-//
-//    println("Name 1st person is ${first.name}\nAge  is ${first.age}\nWeight is${first.weight}\nHeight is ${first.height}.")
-//    println("Name 2st person is ${second.name}\nAge  is ${second.age}\nWeight is${second.weight}\nHeight is ${second.height}.")
+    val first = Person()
+    val second = Person()
 
+    print("Input 1st name: ")
+    first.name = readln()
+    print("Input 2st name: ")
+    second.name = readln()
+
+    print("Input 1st age: ")
+    first.age = readln().toInt();
+    print("Input 2st age: ")
+    second.age = readln().toInt();
+
+
+    print("Input 1st weight: ")
+    first.weight = readln().toDouble()
+    print("Input 2st weight: ")
+    second.weight = readln().toDouble()
+
+    print("Input 1st height: ")
+    first.height = readln().toDouble()
+    print("Input 2st height: ")
+    second.height = readln().toDouble()
+
+
+    println("Name 1st person is ${first.name}\nAge  is ${first.age}\nWeight is${first.weight}\nHeight is ${first.height}.")
+    println("Name 2st person is ${second.name}\nAge  is ${second.age}\nWeight is${second.weight}\nHeight is ${second.height}.")
 
 
 ////_____________________________________________________________________________________________
