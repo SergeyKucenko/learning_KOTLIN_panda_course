@@ -1,33 +1,20 @@
 fun main() {
 
-
-//    ФУНКЦИИ стр 33
-
-
-
-    val isDark: Boolean = true
-    val isRaining: Boolean = false
-
-    val shouldTurnOnHeadlights = isDark.or(isRaining)
-
-    val shouldStayHome = isDark.and(isRaining)
-
-    println(shouldTurnOnHeadlights)
-    println(shouldStayHome)
-
-//    val radius = readln().toDouble();
+// коллекции стр 156
 //
-//    val nomNumber = circumference(radius)
-//    println("Окружность равна: $nomNumber")
+//    val booksToRead = listOf(
+//        "Tea with Agatha",
+//        "Mystery on First Avenue",
+//        "The Ravine of Sorrows",
+//        "Among the Aliens",
+//        "The Kingsford Manor Mystery"
+//    )
+//
+//
+//
+//    println(booksToRead)
 
-
+    
 }
-
-
-
-//fun circumference(radius: Double): Double {
-//    val pi = 3.14
-//    return 2 * pi * radius
-//}
 
 
