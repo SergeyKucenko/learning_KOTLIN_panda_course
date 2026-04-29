@@ -1,22 +1,20 @@
-//val smallCircle = Circle(5.2)
-//val mediumCircle = Circle(6.7)
-//val largeCircle = Circle(10.0)
 
-val smallCircle = Circle(5.2)
-val radiusOfSmallCircle: Double = smallCircle.radius
-val circumferenceOfSmallCircle = smallCircle.circumference()
-val areaOfSmallCircle = smallCircle.area()
-val diameterOfSmallCircle = smallCircle.diameter()
+import kotlin.math.PI
 
 
-class Circle (var radius: Double) {
-    private val pi: Double = 3.14
+enum class SchnauzerBreed(val height:Int) {
+    MINIATURE(33),
+    STANDARD(47),
+    GIANT(65);
 
-    fun circumference() = diameter() * pi
-    fun area() = pi * radius * radius
-    fun diameter() = 2 * radius
+    val family: String = "Schnauzer"
 
+    fun isShorterThan(centimeters: Int) = height < centimeters
 }
+
+
+
+
 
 
 

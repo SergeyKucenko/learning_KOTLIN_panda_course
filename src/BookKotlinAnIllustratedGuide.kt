@@ -1,33 +1,27 @@
 fun main() {
 
 
-//    ФУНКЦИИ стр 33
+    val nameOfSchnauzer: String = "Шейди"
+
+    val breedOfSchnauzer: String = "Миниатюрная"
 
 
 
-    val isDark: Boolean = true
-    val isRaining: Boolean = false
+    fun describe(breed: SchnauzerBreed) = when (breed) {
+        SchnauzerBreed.MINIATURE -> "Маленькая"
+        SchnauzerBreed.STANDARD -> "Средняя"
+        SchnauzerBreed.GIANT -> "Крупная"
+    }
 
-    val shouldTurnOnHeadlights = isDark.or(isRaining)
+    val breed: SchnauzerBreed = SchnauzerBreed.GIANT
 
-    val shouldStayHome = isDark.and(isRaining)
+    println(SchnauzerBreed.GIANT.height)
 
-    println(shouldTurnOnHeadlights)
-    println(shouldStayHome)
+    println(SchnauzerBreed.STANDARD.family)
+    println(SchnauzerBreed.STANDARD.isShorterThan(40))
 
-//    val radius = readln().toDouble();
-//
-//    val nomNumber = circumference(radius)
-//    println("Окружность равна: $nomNumber")
 
 
 }
-
-
-
-//fun circumference(radius: Double): Double {
-//    val pi = 3.14
-//    return 2 * pi * radius
-//}
 
 
