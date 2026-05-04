@@ -11,7 +11,10 @@ fun main() {
         SchnauzerBreed.MINIATURE -> "Маленькая"
         SchnauzerBreed.STANDARD -> "Средняя"
         SchnauzerBreed.GIANT -> "Крупная"
+
+
     }
+
 
     val breed: SchnauzerBreed = SchnauzerBreed.GIANT
 

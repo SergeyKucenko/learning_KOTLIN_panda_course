@@ -10,6 +10,12 @@ enum class SchnauzerBreed(val height:Int) {
     val family: String = "Schnauzer"
 
     fun isShorterThan(centimeters: Int) = height < centimeters
+
+
+    fun describe(breed: SchnauzerBreed) {
+        println(breed.name)
+        println(breed.height)
+    }
 }
 
 
